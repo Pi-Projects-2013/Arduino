@@ -173,8 +173,8 @@ void handleEmailSend() {
   Session_Config config;
   config.server.host_name = host;
   config.server.port = port;
-  config.login.email = "familydimakis@gmail.com";  // Nur zu Testzwecken!
-  config.login.password = "bimc mhoc uilj txdt";   // Nutze App-spezifisches Passwort!
+  config.login.email = "Your SMTP Email here";  // Nur zu Testzwecken!
+  config.login.password = "Your SMTP Password here";   // Nutze App-spezifisches Passwort!
 
   SMTP_Message msg;
   msg.sender.name = "ESP Citrix Mail";

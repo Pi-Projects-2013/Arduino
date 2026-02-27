@@ -8,8 +8,8 @@
 #include <Espalexa.h>
 
 // WLAN-Zugangsdaten
-const char* ssid = "WLAN-107461";
-const char* password = "77412282629652538534";
+const char* ssid = "Your SSID here";
+const char* password = "Your Password here";
 
 Espalexa espalexa;
 
